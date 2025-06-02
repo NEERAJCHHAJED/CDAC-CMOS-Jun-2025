@@ -1,0 +1,12 @@
+* gnetlist -g spice-sdb -o bfwr.net bfwr.sch
+ .global gnd
+ .model 1n4007 d(is=76.9p rs=42.0m bv=1.00k ibv=5.00u cjo=26.5p m=0.333 n=1.45 tt=4.32u)
+ v2 2 1 sin(0 5 60)
+ r2 0 3 10k
+ d8 1 3 1n4007
+ d6 2 3 1n4007
+ d4 0 2 1n4007
+ d2 0 1 1n4007
+ .options temp=25
+.tran 100u 100m
+ .end
