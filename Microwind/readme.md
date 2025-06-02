@@ -1,5 +1,5 @@
 # Running MicroWind and DSCH on Linux using Wine
-bash
+```bash
 sudo apt update  
 sudo apt install wine  
 sudo apt install winetricks
