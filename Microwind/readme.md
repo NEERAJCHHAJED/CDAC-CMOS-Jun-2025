@@ -1,4 +1,4 @@
-Install Wine using the following commands
+#Install Wine using the following commands
 
 sudo apt update  
 sudo apt install wine  
@@ -8,9 +8,9 @@ WINEPREFIX=/home/students/newwineprefix winecfg
 
 winetricks vcrun6  
 
-Download the above 2 files
-Extract them
-Then copy the msvbvm60.dll file and add it to the following directory:
+#Download the above 2 files
+#Extract them
+# Then copy the msvbvm60.dll file and add it to the following directory:
 /home/students/newwineprefix/drive_c/windows/system32/
 To run MicroWind, go to the directory, then open the terminal and run:
 cd /path/to/microwind/directory
