@@ -1,4 +1,4 @@
-#Install Wine using the following commands
+# Running MicroWind and DSCH on Linux using Wine
 
 sudo apt update  
 sudo apt install wine  
